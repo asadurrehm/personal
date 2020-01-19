@@ -1,0 +1,281 @@
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; }
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; }
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; }
+
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; }
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+ul li {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+.c1 {
+  color: #353537; }
+
+.c2 {
+  color: #242426; }
+
+.c3 {
+  color: #ff0066; }
+
+.c4 {
+  color: #505050; }
+
+.wh {
+  color: #fff; }
+
+.bg1 {
+  background-color: #353537; }
+
+.bg2 {
+  background-color: #242426; }
+
+hr {
+  background: #ff0066;
+  width: 100px;
+  height: 0.25rem; }
+
+.btn1 {
+  background: #ff0066;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ff0066;
+  padding: 0.5rem 2rem; }
+
+.btn2 {
+  background: transparent;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 0.5rem 2rem; }
+
+a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+.ho:hover {
+  color: #fff; }
+
+.navbar {
+  padding: 0px; }
+  .navbar .nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+    .navbar .nav-item .nav-link {
+      color: #fff; }
+      .navbar .nav-item .nav-link:hover {
+        color: #505050; }
+    .navbar .nav-item.active .nav-link {
+      color: #fff; }
+      .navbar .nav-item.active .nav-link:hover {
+        color: #505050; }
+
+.ptop {
+  padding-top: 100px; }
+
+.pbot {
+  padding-bottom: 100px; }
+
+@media only screen and (max-width: 991px) {
+  .banner .row {
+    flex-direction: column-reverse; } }
+
+.banner .row .content {
+  text-align: center;
+  width: 100%; }
+
+.banner .row img {
+  animation-name: fadeInRight;
+  animation-duration: 1s; }
+
+@media only screen and (min-width: 992px) {
+  .banner .content {
+    margin-top: 50%;
+    transform: translateY(-50%);
+    width: 50%; } }
+
+@media only screen and (max-width: 400px) {
+  .about .ablink {
+    flex-direction: column; } }
+
+@media only screen and (max-width: 400px) {
+  .about .ablink .btn2 {
+    margin-left: 0 !important;
+    margin-top: 1rem !important; } }
+
+.services .card {
+  background: transparent;
+  padding: 2rem 1rem;
+  transition: all 1s ease; }
+  .services .card i {
+    font-size: 24px; }
+  .services .card a {
+    transition: all 1s ease; }
+    .services .card a:hover {
+      color: #ff0066; }
+  .services .card:hover {
+    background-color: #ff0066; }
+    .services .card:hover i {
+      color: #fff; }
+    .services .card:hover a {
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      border-top: 1px solid #fff;
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem; }
+
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+.counter {
+  text-align: center;
+  font-family: "Poppins", sans-serif; }
+  .counter .card {
+    border: none;
+    background: transparent; }
+    @media only screen and (max-width: 991px) {
+      .counter .card {
+        margin-top: 2rem;
+        margin-bottom: 2rem; } }
+  .counter .round {
+    position: relative; }
+  .counter .round strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    transform: translate(-50%);
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600; }
+  .counter span {
+    display: block;
+    color: #999;
+    font-size: 16px;
+    margin-top: 10px; }
+  .counter span i {
+    color: #ff5c5c;
+    font-size: 22px;
+    margin-right: 6px; }
+  .counter section button:hover {
+    background-color: #ff5c5c; }
+
+.portfolio .card {
+  position: relative; }
+  .portfolio .card .card-body {
+    position: absolute;
+    top: 0;
+    background-color: rgba(36, 36, 38, 0.75);
+    width: 95%;
+    height: 93%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: none;
+    animation-name: anim;
+    animation-duration: 1s; }
+  .portfolio .card:hover .card-body {
+    display: block; }
+
+.portfolio .carousel-indicators {
+  top: 115%; }
+  .portfolio .carousel-indicators li {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px; }
+  .portfolio .carousel-indicators li.active {
+    background-color: #ff0066; }
+
+@keyframes anim {
+  0% {
+    transform: scale(0, 0); }
+  100% {
+    transform: scale(1, 1); } }
+
+.testimonial img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%); }
+
+@media only screen and (min-width: 992px) {
+  .testimonial .carousel-control-next, .testimonial .carousel-control-prev {
+    top: 82%; } }
+
+@media only screen and (max-width: 991px) {
+  .testimonial .carousel-control-next, .testimonial .carousel-control-prev {
+    top: 105%; } }
+
+.testimonial .carousel-control-prev {
+  left: 75%; }
+
+@media only screen and (max-width: 991px) {
+  .testimonial .test-head {
+    margin-top: 2rem; } }
+
+.blog .card {
+  background: #353537;
+  padding: 2rem;
+  border: none; }
+  .blog .card .blog-head {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none; }
+    .blog .card .blog-head:hover {
+      color: #fff; }
+  .blog .card:hover .blog-head {
+    color: #ff0066; }
+
+.blog .carousel-indicators {
+  top: 105%; }
+  .blog .carousel-indicators li {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px; }
+  .blog .carousel-indicators li.active {
+    background-color: #ff0066; }
+
+.contact input {
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fff; }
+
+.contact textarea {
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  min-height: 200px; }
+
+footer ul li a i {
+  font-size: 24px; }
+  footer ul li a i:hover {
+    color: #ff0066; }

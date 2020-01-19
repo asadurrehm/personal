@@ -1,0 +1,47 @@
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+.counter {
+  .card{
+    border:none;
+    background: transparent;
+    @media only screen and (max-width:991px){
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+  }
+ 
+  text-align: center;
+  font-family: $po;
+
+  .round {
+    position: relative;
+
+  }
+   .round strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    transform: translate(-50%);
+    
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+  }
+   span {
+    display: block;
+    color: #999;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+   span i {
+    color: #ff5c5c;
+    font-size: 22px;
+    margin-right: 6px;
+  }
+  section button:hover {
+    background-color: #ff5c5c;
+  }
+
+}
+ 

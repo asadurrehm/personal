@@ -1,0 +1,14 @@
+footer{
+    ul{
+        li{
+            a{
+                i{
+                    font-size: 24px;
+                    &:hover{
+                        color:$c3;
+                    }
+                }
+            }
+        }
+    }
+}

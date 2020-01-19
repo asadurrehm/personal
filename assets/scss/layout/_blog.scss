@@ -1,0 +1,33 @@
+.blog{
+    .card{
+        background: $c1;
+        padding: 2rem;
+        border:none;
+        .blog-head{
+            font-family: $po;
+            font-weight: 600;
+            font-size:24px;
+            text-decoration: none;
+            &:hover{
+                color:#fff;
+            }
+        }
+        &:hover{
+           .blog-head{
+               color:$c3;
+           }
+        }
+    }
+
+    .carousel-indicators{
+        top:105%;
+        li{
+            border-radius: 100%;
+            width:10px;
+            height: 10px;
+        }
+        li.active{
+            background-color: $c3;
+        }
+  }
+}

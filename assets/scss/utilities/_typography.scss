@@ -1,0 +1,56 @@
+h1{
+    @include font($po,700);
+}
+h2{
+    @include font($po,600);
+}
+h3{
+    @include font($po,600);
+}
+h4{
+    @include font($po,500);
+
+}
+h5{
+    @include font($po,500);
+}
+h6{
+    @include font($po,400);
+}
+p{
+    @include font2($ra,400,16px);
+}
+ul{
+    li{
+        @include font2($ra,400,16px);
+    }
+}
+
+
+.c1{
+    color:$c1;
+}
+.c2{
+    color:$c2;
+}
+.c3{
+    color:$c3;
+}
+.c4{
+    color:$c4;
+}
+.wh{
+    color:$wh;
+}
+.bg1{
+   background-color: $c1;
+}
+.bg2{
+   background-color: $c2;
+}
+hr{
+    background: $c3;
+    width: 100px;
+    height: 0.25rem;
+}
+

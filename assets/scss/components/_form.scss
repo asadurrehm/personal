@@ -1,0 +1,15 @@
+.contact{
+    input{
+        border:none;
+        font-family: $po;
+        font-weight: 400;
+        color:$wh;
+    }
+    textarea{
+        border:none;
+        font-family: $po;
+        font-weight: 400;
+        color:$wh;
+        min-height: 200px;
+    }
+}

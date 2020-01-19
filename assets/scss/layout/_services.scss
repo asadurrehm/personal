@@ -1,0 +1,29 @@
+.services{
+    .card{
+        background: transparent;
+        padding:2rem 1rem;
+        transition: all 1s ease;
+        i{
+            font-size: 24px;
+        }
+        a{
+            transition: all 1s ease;
+            &:hover{
+                color:$c3;
+            }
+        }
+        &:hover{
+            background-color: $c3;
+            i{
+                color:$wh;
+            }
+            a{
+                color:$wh;
+                border-bottom: 1px solid $wh;
+                border-top: 1px solid $wh;
+                padding-bottom: 0.5rem;
+                padding-top: 0.5rem;
+            }
+        }
+    }
+}

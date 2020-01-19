@@ -1,0 +1,22 @@
+.testimonial{
+    img{
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
+    .carousel-control-next, .carousel-control-prev{
+        @media only screen and (min-width:992px){
+           top:82%;
+        }
+        @media only screen and (max-width:991px){
+           top:105%;
+        }
+    }
+    .carousel-control-prev {
+        left: 75%;
+    }
+    .test-head{
+        @media only screen and (max-width:991px){
+             margin-top: 2rem;
+        }
+    }
+}
